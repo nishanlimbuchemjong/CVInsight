@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Result</title>
+</head>
+<body>
+    <h2>✅ Resume Uploaded Successfully!</h2>
+    <p><strong>Name:</strong> {{ resume.name }}</p>
+    <p><strong>Email:</strong> {{ resume.email }}</p>
+    <p><strong>Phone:</strong> {{ resume.phone }}</p>
+    <p><strong>Skills:</strong> {{ resume.skills }}</p>
+    <p><strong>Drive Link:</strong> <a href="{{ resume.drive_link }}" target="_blank">View File</a></p>
+    <br>
+    <a href="/">Upload another resume</a>
+</body>
+</html>
