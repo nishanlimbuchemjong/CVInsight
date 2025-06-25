@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Local environment variables / secrets
+*.env
+credentials.json  # 🚨 Google service account key file — DO NOT push this to GitHub
+
+# Flask instance folder
+instance/
+
+# Upload folder
+uploads/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Local config/secrets
+config.py
+
+# Database migrations (optional to ignore compiled files)
+migrations/*.pyc
+migrations/__pycache__/
+migrations/*.db
+
+# Secret config and credentials
+config.py
+credentials.json
+clients.json
+credentials.py
+.env
+
+# Optional backups / temp files
+*.bak
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
